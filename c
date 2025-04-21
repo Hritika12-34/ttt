@@ -1,7 +1,14 @@
-cm = confusion_matrix(y_test, y_pred)
-sns.heatmap(cm, annot=True, xticklabels=['Circle', 'Square', 'Triangle'],
-            yticklabels=['Circle', 'Square', 'Triangle'])
-plt.title("Confusion Matrix")
-plt.xlabel("Predicted")
-plt.ylabel("True")
-plt.show()
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
+git clone https://github.com/Hritika12-34/ml-ops.git
+
+cd ml-ops
+
+echo "My first Git file" > test.txt
+
+git add test.txt
+git commit -m "Added test.txt"
+
+git push origin main
